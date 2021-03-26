@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Image Compressor"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageHolder"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_img"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnCompress"
+        android:text="Compress"
+        android:textSize="14sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_width="300dp"
+        android:layout_height="40dp">
+
+    </Button>
+
+</LinearLayout>
