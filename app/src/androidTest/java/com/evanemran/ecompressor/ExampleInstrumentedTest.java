@@ -1,4 +1,4 @@
-package com.example.icompressor;
+package com.evanemran.ecompressor;
 
 import android.content.Context;
 
